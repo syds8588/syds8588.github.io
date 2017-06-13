@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<script src="https://use.typekit.net/lhw1hlw.js"></script>
+<script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+</script>
+
+<title>Akura Aquariums</title>
+
+<body class="custom-page">
+
+    <nav class="navbar navbar-default navbar-fixed-top show-nav">
+        <div class="container-fluid">
+            <button style="margin-right: 0;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1 class="visible-xs" style="margin: 0; margin-top: 8px;">
+                <a href="#">Akua</a>
+            </h1>
+            <div class="collapse navbar-collapse row width-100 margin-0" id="bs-navbar-collapse">
+                <ul class="nav navbar-nav row float-none text-align-center">
+                    <li class="col-sm-2"><a href="index.html#howItWorks">How</a></li>
+                    <li class="col-sm-2"><a href="aquariums.html">Aquariums</a></li>
+                    <li class="col-sm-4 hidden-xs hometitle"><a class="home-link" href="index.html"><strong>AKUA</strong></a></li>
+                    <li class="col-sm-2"><a class="active" href="custom.html">Custom</a></li>
+                    <li class="col-sm-2"><a href="#" id="cart-trigger">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="cart">
+            <ul>
+                <li>No items in cart</li>
+            </ul>
+            <p>BUY</p>
+        </div>
+    </nav>
+
+    <div class="top-of-page container-fluid">
+        <div class="col-md-10 col-md-push-1">
+            <!-- fish and plant images here -->
+                <div class="tank-image-templates">
+                    <!-- plants-->
+                    <img data-tank-image="plants-quantity:moss-balls" src="images/plant1-mossballs.png" width="100">
+                    <img data-tank-image="plants-quantity:radican-sword" src="images/plant2-radican-sword.png" width="300">
+                    <img data-tank-image="plants-quantity:babytears" src="images/plant3-babytears.png" width="80">
+                    <img data-tank-image="plants-quantity:christmas-moss" src="images/plant4-christmas-moss.png" width="110">
+                    
+                    <!-- fishes -->
+                    <img data-tank-image="fish-quantity:cardinal-tetra" width="60" src="cardinal_tetra.png">
+                    <img data-tank-image="fish-quantity:celestial-rasbora" width="70" src="celestial_rasbora.png">
+                    <img data-tank-image="fish-quantity:zebra-danio" width="90" src="Zebra_danio.png">
+                    <img data-tank-image="fish-quantity:betta-male" width="140" src="Betta-Male.png">
+                    
+                    
+                    <!-- invertebrates-->
+                    <img data-tank-image="invertibrates-quantity:blue" width="76" src="images/Shrimp-blue.png">
+                    <img data-tank-image="invertibrates-quantity:red-sakura" width="76" src="images/shrimp-red-sakura.png">
+                    <img data-tank-image="invertibrates-quantity:nerite-snail" width="50" src="images/snail-nerite.png">
+                    <img data-tank-image="invertibrates-quantity:rabbit-snail" width="100" src="images/snail-rabbit.png">     
+                </div>
+                <div class="tank-image-wrapper"></div>
+        </div>
+    </div>
+
+
+    <section class="custom-menu-wrapper container-fluid">
+        <div class="col-md-10 col-md-push-1">
+            <div class="col-md-4 custom-menu-left-side">
+             <div class="custom-menu text-align-center">
+                <ul>
+                    <li data-target="tank">Tank</li>
+                    <li data-target="plants">Plants</li>
+                    <li class="active" data-target="fish">Fish</li>
+                    <li data-target="invertibrates">Invertibrates</li>
+                </ul>
+            </div>
+            <aside class="custom-menu-item-info">
+                <div class="active" data-for-target="fish">
+                    <strong>FISH</strong>
+                    <p>What fish you choose for your tank creates the feel of your whole aquarium. The size of your aquarium determines what kind of fish you can have and how many.
+                    </p>
+                    <p>Skooling fish create a beautiful and simple aesthetic that work well in large groups and open tanks. More fish can be housed in a aquarium as long as they are compatable and aren't aggressive to one another.  </p>
+                    
+                    <p>
+                    The overall your tanks bioload must meet up with the amount of gallons that your aquarium can hold. Some fish have a heavier bioload than others and this will decrease the amount of fish that you can house. </p>
+                    
+                </div>
+                
+                   <div data-for-target="tank">
+                    <strong>Tank</strong>
+                       <p>tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank </p>
+                       <p>tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank </p><p>tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank </p><p>tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank </p><p>tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank tank </p>
+                </div>
+                
+                   <div data-for-target="plants">
+                    <strong>Plants</strong>
+                       <p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p>
+                       <p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p><p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p><p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p><p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p><p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p><p>plants  plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants plants </p>
+                </div>
+                <div data-for-target="invertibrates">
+                    <strong>invertibrates</strong>
+                    <p>snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and </p>
+                    <p>snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and </p>
+                    <p>snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and </p>
+                    <p>snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and snails and shrimp and </p>
+                </div>
+            </aside>
+            </div>
+
+            <form class="custom-menu-items-list col-md-8">
+                <ul class="active" data-for-target="fish">
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img width="50" src="cardinal_tetra.png">
+                        </div>
+                        <strong>Cardinal Tetra</strong>
+                        <p>These brightly colored skooling fish add a flash of color and a beautiful grouping. They are happiest in larger groups. </p>
+                        <label>
+                            <input name="fish-quantity:cardinal-tetra" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img width="50" src="celestial_rasbora.png">
+                        </div>
+                        <strong>Celestial Rasbora</strong>
+                        <p>A beautful yet sublte fish that loves to hide among the plants, happiest in groups these fish love to show off their lovely pattern. </p>
+                        <label>
+                            <input name="fish-quantity:celestial-rasbora" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img width="50" src="Zebra_danio.png">
+                        </div>
+                        <strong>Zebra Danio</strong>
+                        <p>Zebra danio are a mid-sized fish and are very active. Their beautiful stripes flash as they dart around their environment. </p>
+                        <label>
+                            <input name="fish-quantity:zebra-danio" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="Betta-Male.png">
+                        </div>
+                        <strong>Betta</strong>
+                        <p>Bettas have lots of personality and are definitely a show fish in any aquarium. Male bettas can only be housed one at a time and because of their aggressive nature they are not recommended to be housed with other fish. </p>
+                        <label>
+                            <input name="fish-quantity:betta-male" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                </ul>
+                <ul data-for-target="tank">
+                    <li>
+                        <label>
+                        <div class="custom-menu-item-image">
+                            <img src="aqua-open-spaces.png">
+                        </div>
+                        <strong>Open Spaces</strong>
+                        <p>foo foo foo asd asdf asd foo foo foo asd asdf asd foo foo foo asd asdf asd foo foo foo asd </p>
+                        
+                            <input checked name="tank-selection" type="radio" value="aqua-open-spaces.png" />
+                            <span> Chosen</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                        <div class="custom-menu-item-image">
+                            <img src="images/aqua-riverbank.png">
+                        </div>
+                        <strong>Riverbank</strong>
+                        <p>The serene aquascape allows for plenty of open space for fish to swim with plenty of hidding spots available for shrimp and shy fish. </p>
+                        
+                            <input name="tank-selection" type="radio" value="/images/aqua-riverbank.png" />
+                            <span> Chosen</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                        <div class="custom-menu-item-image">
+                            <img src="/images/aqua-tiny-mountains.png">
+                        </div>
+                        <strong>tiny mountains</strong>
+                        <p>A beuatiful aquarscape the works best with a variety of mosses.  </p>
+                        
+                            <input name="tank-selection" type="radio" value="/images/aqua-tiny-mountains.png" />
+                            <span> Chosen</span>
+                        </label>
+                    </li>
+                </ul>
+                 <ul data-for-target="plants">
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/plant1-mossballs.png">
+                        </div>
+                        <strong>Moss balls</strong>
+                        <p>These gorgeously elegent moss balls are wildly popular. The come in groups of three and require no additional maintenance. </p>
+                        <label>
+                            <input name="plants-quantity:moss-balls" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/plant2-radican-sword.png">
+                        </div>
+                        <strong>Radican Sword</strong>
+                        <p>Long full leaves add height to the scenery. A great addition that provides a beautiful hidding spot for fish and shrimp. </p>
+                        <label>
+                            <input name="plants-quantity:radican-sword" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/plant3-babytears.png">
+                        </div>
+                        <strong>Baby Tears</strong>
+                        <p>These cute little leaves bunch together to create a lush carpet of greenery. A fun addition that can be used to drap around rocks or branches to provide a dense contained area of green thats easy to maintain. </p>
+                        <label>
+                            <input name="plants-quantity:babytears" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/plant4-christmas-moss.png">
+                        </div>
+                        <strong>Christmas Moss</strong>
+                        <p>Christmas moss provides a lush carpeted look with the added height and texture of the individual fern fronds . A fun addition that can be used to drap around rocks or branches to provide a dense contained area of green thats easy to maintain.</p>
+                        <label>
+                            <input name="plants-quantity:christmas-moss" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                </ul>
+                <ul data-for-target="invertibrates">
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/Shrimp-blue.png">
+                        </div>
+                        <strong> Blue Shrimp</strong>
+                        <p>These gorgeous blue shrimp provide a pop of color along with the benefit of cleaning debris from the tank. Best in groups they pair well with skooling fish but shouldn't be housed with bettas. </p>
+                        <label>
+                            <input name="invertibrates-quantity:blue" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/shrimp-red-sakura.png">
+                        </div>
+                        <strong>Red Sakura</strong>
+                        <p>These brilliant red shrimp provide a pop of color along with the benefit of cleaning debris from the tank. Best in groups they pair well with skooling fish but shouldn't be housed with bettas. </p>
+                        <label>
+                            <input name="invertibrates-quantity:red-sakura" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img  style="width: 50px" src="images/snail-nerite.png">
+                        </div>
+                        <strong>Nerite Snail</strong>
+                        <p>Large round striped shells are a nice addition to any tank. Snails are wonderful for helping to maintain a clean tank. </p>
+                        <label>
+                            <input name="invertibrates-quantity:nerite-snail" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                    <li>
+                        <div class="custom-menu-item-image">
+                            <img src="images/snail-rabbit.png">
+                        </div>
+                        <strong>Rabbit Snail</strong>
+                        <p>Beautiful long shell and bright yellow bodies these snails are wonderfully fun to watch move around the tank. </p>
+                        <label>
+                            <input name="invertibrates-quantity:rabbit-snail" type="number" />
+                            <span> Quantity</span>
+                        </label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+        <h4 onclick="(e => delete localStorage.cart)()">1800 Main st. <br>
+Waterville, California
+        </h4>
+
+        <img class="logo" src="logo.png">
+
+    </footer>
+    
+    <div id="cart-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Your aquarium is on it's way!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Thank you for your purchase!</p>
+          <div id="completed-cart"></div>
+      </div>
+      
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/custom.js"></script>
+</body>
